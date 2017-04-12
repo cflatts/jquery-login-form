@@ -3,7 +3,7 @@
 var loginBtn = $('#loginBtn')
 
 function loginSuccess (response) {
-  console.log('SUCCESS:', response)
+  window.location = 'http://127.0.0.1:7979/index.html'
 }
 
 function loginFail (response, error, status) {
