@@ -14,7 +14,6 @@ function createErrorEl (newEl, errorText, appendEl) {
 }
 
 function loginFail (response, error, status) {
-  console.log(response)
   if (response.readyState === 0) {
     createErrorEl('<p/>', 'The server has timed out', '.action-row')
   } else if (response.readyState === 4) {

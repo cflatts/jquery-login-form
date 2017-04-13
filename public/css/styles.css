@@ -1,7 +1,25 @@
 * {
   font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d2d0d0;
 }
 
 a {
   text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #e4a5a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.error {
+  color: red;
 }
